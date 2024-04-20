@@ -1,4 +1,4 @@
-algoritmo "MÉDIA_VETOR_MostrarNotas&Média"
+algoritmo "MEDIA_VETOR_MostrarNotasMÉDIA"
 
 var
    notas: vetor [0..2] de real
@@ -15,9 +15,12 @@ inicio
 
    media <- soma / 3
 
-
-   escreval("Suas notas são: ", notas[i])
-   escreval("Sua média é: ", media)
+   para i de 0 ate 2 faca
+      escreval(" ")
+      escreval("Notas: ", notas[i])
+   fimpara
+   escreval("  ")
+   escreval("MÉDIA: ", media)
 
 
 fimalgoritmo
