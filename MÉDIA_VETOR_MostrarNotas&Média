@@ -1,0 +1,23 @@
+algoritmo "MÉDIA_VETOR_MostrarNotas&Média"
+
+var
+   notas: vetor [0..2] de real
+   i: inteiro
+   soma: real
+   media : real
+inicio
+   para i de 0 ate 2 faca
+      escreval ("Digite sua nota: ")
+      leia(notas[i])
+      soma <- soma + (notas[i])
+   fimpara
+
+
+   media <- soma / 3
+
+
+   escreval("Suas notas são: ", notas[i])
+   escreval("Sua média é: ", media)
+
+
+fimalgoritmo
