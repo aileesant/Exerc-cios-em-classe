@@ -1,0 +1,26 @@
+algoritmo "Exemplo - Função"
+
+funcao CalcularSoma(a, b: inteiro): inteiro
+var
+   resultado : inteiro
+inicio
+   resultado <- a+b
+   retorne resultado
+fimfuncao
+
+var
+   primeiroNumero, segundoNumero, soma: inteiro
+
+inicio
+
+   escreval("Digite o primeiro número: ")
+   leia(primeiroNumero)
+
+   escreval("Digite o segundo número: ")
+   leia(segundoNumero)
+
+   soma <- CalcularSoma( primeiroNumero, segundoNumero)
+
+   escreval("A soma dos números é: ", soma)
+
+fimalgoritmo
