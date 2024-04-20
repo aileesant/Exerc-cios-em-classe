@@ -1,0 +1,13 @@
+algoritmo "REPETIÇÃO - DECRESCENTE"
+
+var
+
+   x1: inteiro
+
+inicio
+
+   para x1 de 50 ate 0 passo -1  faca
+      escreval(x1)
+   fimpara
+
+fimalgoritmo

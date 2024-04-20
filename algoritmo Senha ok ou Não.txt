@@ -1,0 +1,17 @@
+algoritmo "Senha ok ou Não"
+
+var
+   senhaOk, senha : caractere
+inicio
+
+   senhaOk <- "NCT127"
+
+   escreval ("Digite sua senha: ")
+   leia(senha)
+
+   se senha = senhaOk entao
+      escreval("PORTA ABERTA!")
+   senao
+      escreval("SENHA NÃO CONFERE")
+   fimse
+fimalgoritmo

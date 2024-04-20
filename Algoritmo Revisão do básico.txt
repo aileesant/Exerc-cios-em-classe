@@ -1,0 +1,25 @@
+Algoritmo "Revisão do básico"
+
+Var
+//declaração
+n1 : inteiro
+n2 : real
+n3 : caractere
+n4 : logico
+
+Inicio
+
+//atribuição
+n1 <- 7
+n2 <- 15,7
+n3 <- "uma variável de texto"
+n4 <- falso
+
+//impressão
+escreval("Olá, estou começamdo!")
+escreval(" A variável é: ", n1)
+escreval(" A variável é: ", n2)
+escreval(" A variável é: ", n3)
+escreval(" A variável é: ", n4)
+
+Fimalgoritmo

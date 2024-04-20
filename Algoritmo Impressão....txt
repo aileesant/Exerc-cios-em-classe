@@ -1,0 +1,18 @@
+Algoritmo "Impressão..."
+
+Var
+//declaração
+idade : inteiro
+nome : caractere
+
+Inicio
+
+//impressão
+escreval("Olá! Imforme seu nome: ")
+leia(nome)
+escreval("Digite sua idade: ")
+leia(idade)
+escreval("Olá, ", nome, ". Sua idade é ", idade)
+
+
+Fimalgoritmo

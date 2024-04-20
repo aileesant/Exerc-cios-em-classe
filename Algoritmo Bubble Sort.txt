@@ -1,0 +1,58 @@
+Algoritmo "Bubble Sort"
+
+procedimento MostrarLista()
+inicio 
+
+escreval("___NÚMEROS___")
+para i de 0 ate 19 faca
+escreval(nums[i], " ")
+fimpara 
+escreval("   ")
+fimprocedimento 
+
+funcao ListaOrdenada(): logico
+var 
+aux: inteiro 
+inicio
+para i de 0 ate 19 faca
+para x de i+1 ate 19 faca
+se nums[i] <- nums[i]
+nums[i] <- aux
+fimse
+fimpara
+retrone verdadeiro
+fimfuncao
+
+Var 
+numeros : vetor[0..19] de inteiro
+i, x : interio 
+
+Incio
+nums[0] <- 1
+nums[1] <- 7
+nums[2] <- 10
+nums[3] <- 9
+nums[4] <- 2
+nums[5] <- 3
+nums[6] <- 20
+nums[7] <- 18
+nums[8] <- 33
+nums[9] <- 90
+nums[10] <- 44
+nums[11] <- 34
+nums[12] <- 30
+nums[13] <- 21
+nums[14] <- 27
+nums[15] <- 5
+nums[16] <- 8
+nums[17] <- 99
+nums[18] <- 54
+nums[19] <- 68
+
+MostrarLista() 
+
+ordenado <- ListaOrdenada()
+
+MostrarLista()
+
+Fimalgoritmo 

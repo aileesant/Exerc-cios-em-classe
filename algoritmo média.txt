@@ -1,0 +1,27 @@
+algoritmo "média"
+
+var
+
+   media, nota1, nota2 : real
+
+inicio
+
+   escreval("Informe a primeira nota: ")
+   leia(nota1)
+
+   escreval("Informe a segunda nota: ")
+   leia(nota2)
+
+   media <- (nota1+nota2)/2
+
+   se (media>=6) entao
+      escreval("APROVADO")
+   senao
+      se (media=5) entao
+         escreval("RECUPERAÇÃO")
+      senao
+         escreval("REPROVADO")
+      fimse
+   fimse
+
+fimalgoritmo
