@@ -1,0 +1,24 @@
+algoritmo "MÉDIA"
+
+var
+
+   nota: real
+   media: real
+   soma: real
+   i : inteiro
+
+inicio
+
+   para i de 1 ate 4 passo 1 faca //para evitar repetir o 'notaUm', 'notaDois'..... PLMDS
+      escreva("Digite uma nota: ")
+      leia(nota)
+
+      soma <- soma + nota 
+
+   fimpara
+
+   media <- soma / 4
+
+   escreval ("Média: ", media)
+
+fimalgoritmo
