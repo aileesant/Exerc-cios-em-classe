@@ -1,0 +1,31 @@
+algoritmo "Vetor_Maior_Menor_Número"
+
+var
+
+   num: vetor [0..4] de inteiro
+   numMenor: inteiro
+   numMaior: inteiro
+   x, i: inteiro
+
+inicio
+
+   numMenor <- 9999
+
+   para i de 0 ate 4 passo 1 faca
+      escreval("Digite um número: ")
+      leia(num[i])
+
+      se (num[i] > numMaior) entao
+         numMaior <- num[i]
+      fimse
+
+      se (num[i] < numMenor) entao
+         numMenor <- num[i]
+      fimse
+
+   fimpara
+
+   escreval("Menor número:", numMenor)
+   escreval("Maior número:", numMaior)
+
+fimalgoritmo
