@@ -1,0 +1,21 @@
+algoritmo "Dobro_Função"
+
+var
+   numero, resultado: real
+
+funcao Dobro(valor: real) : real
+var
+   total: real
+inicio
+   total <- valor * 2
+   retorne total
+fimfuncao
+
+Inicio
+
+   escreval("Digite um número para calcular o dobro: ")
+   leia(numero)
+   resultado <- Dobro (numero)
+   escreva("O dobro é: ", resultado)
+
+fimalgoritmo
