@@ -1,0 +1,28 @@
+algoritmo "ExercícioDeProcedimento"
+
+var
+
+   nome : caractere
+   idade: inteiro
+   
+procedimento cabecalho()
+inicio
+   limpatela()
+   escreval("---SENAI---")
+fimprocedimento
+
+INICIO
+
+   cabecalho ()
+   escreval("Digite seu nome: ")
+   leia(nome)
+
+   cabecalho()
+   escreval("Digite sua idade: ")
+   leia(idade)
+
+   cabecalho()
+   escreval("Nome: ", nome)
+   escreval("Idade: ", idade)
+
+fimalgoritmo
