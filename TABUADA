@@ -1,0 +1,21 @@
+Algoritmo "TABUADA"
+
+//20/04/2024
+//solicitar ao usuário um número
+//mostra a tabuada de divisão desse número
+
+
+Var
+
+   numero, i : inteiro
+
+Inicio
+
+   escreval("Digite um número para tabuada")
+   leia(numero)
+
+   para i de 1 ate 5 faca
+      escreval(numero, " X ", i, " = ", numero * i)
+   fimpara
+
+Fimalgoritmo
