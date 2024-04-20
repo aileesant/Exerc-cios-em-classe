@@ -1,0 +1,15 @@
+algoritmo "exemplo_vetores"
+
+var
+
+   numeros : vetor [0..9] de inteiro
+   i : inteiro
+
+inicio
+
+   para i de 0 ate 9 faca
+      escreval("Digite um valor para ser adicionado ao vetor: ")
+      leia(numeros[i])
+   fimpara
+   
+fimalgoritmo
