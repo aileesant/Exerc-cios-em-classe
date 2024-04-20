@@ -1,0 +1,18 @@
+algoritmo "PROCEDIMENTO"
+
+var
+
+   nome: caractere
+
+procedimento ExibirMensagem(mensage : caractere)
+inicio
+   escreva(mensage)
+fimprocedimento
+
+
+inicio
+   escreva("Digite seu nome: ")
+   leia(nome)
+   ExibirMensagem("O nome digitado foi: " + nome)
+
+fimalgoritmo
