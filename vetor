@@ -1,0 +1,19 @@
+algoritmo "exemplo_vetores"
+
+var
+
+   numeros : vetor [0..9] de inteiro
+   i : inteiro
+
+inicio
+
+   para i de 0 ate 9 faca
+      escreval("Digite um número: ")
+      leia(numeros[i])
+   fimpara
+   escreva("Números na ordem correta: ")
+   para i de 0 ate 9 faca
+      escreva(numeros[i])
+   fimpara
+   
+fimalgoritmo
