@@ -2,7 +2,7 @@ Algoritmo "semana 12- WHILE pt2"
 
 Var
 
-   valorUm, valorDois, total: real
+   valorUm, valorDois, total: inteiro 
 
 Inicio
 
