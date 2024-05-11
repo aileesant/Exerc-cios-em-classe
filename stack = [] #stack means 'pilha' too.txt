@@ -1,0 +1,16 @@
+stack = [] #stack means 'pilha' too
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print('Elementos inseridos na stack foram: ')
+print(stack)
+
+print('Excluir elementos da stack: ')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+
+print('Stack atual: ')
+print(stack)
