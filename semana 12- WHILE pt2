@@ -1,0 +1,21 @@
+Algoritmo "semana 12- WHILE pt2"
+
+Var
+
+   valorUm, valorDois, total: real
+
+Inicio
+
+total <- 0
+
+
+   enquanto (total<=15) faca
+      escreval("Digite um valor: ")
+      leia(valorUm)
+      escreval("Digite um segundo valor: ")
+      leia(valorDois)
+      total <- valorUm + valorDois
+      escreval("Total = ", total)
+   fimenquanto
+
+Fimalgoritmo
