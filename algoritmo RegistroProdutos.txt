@@ -1,0 +1,37 @@
+algoritmo "RegistroProdutos"
+
+Tipo
+   produto = registro
+      codigo: inteiro
+      nome:caractere
+      valorCusto: real
+      valorVenda: real
+      quantidade: inteiro
+   fimregistro
+
+
+var
+
+   produtos : vetor[1..5] de produto
+   i: inteiro
+
+inicio
+
+   para i de 1 ate 5 faca
+      escreval("Cadastre o produto de número: ", i)
+      produtos[i].codigo <- i
+      Escreval("Escreva nome do produto: ")
+      Leia(produtos[i].nome)
+      Escreval("Escreva o valor do custo: ")
+      Leia(produtos[i].valorCusto)
+      Escreval("Escreva o valor da venda: ")
+      Leia(produtos[i].valorVenda)
+      Escreval("Escreva a quantidade: ")
+      Leia(produtos[i].quantidade)
+   fimpara
+
+   para i de 1 ate 5 faca
+      Escreval("Produto em estoque: ", produtos[i].nome)
+   fimpara
+
+fimalgoritmo

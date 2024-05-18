@@ -1,0 +1,23 @@
+algoritmo "RegistroBasic"
+
+Tipo
+   Produto = registro
+      codigo: inteiro
+      nome:caractere
+      valorCusto: real
+      valorVenda: real
+      quantidade: inteiro
+   fimregistro
+
+
+var
+
+   p : produto
+inicio
+
+   p.codigo <- 1
+   p.nome <- "Tijolo"
+
+   Escreval("O nome do produto é: ", p.nome)
+fimalgoritmo
+

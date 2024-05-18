@@ -1,0 +1,47 @@
+public class Hello {
+
+    public static void main(String [] args) {
+
+        System.out.println("Hello, world.");
+
+    }
+
+}
+
+//JAVA
+
+/////////////
+
+int idade = 25;
+double altura = 1.68;
+char sexo = 'F';
+
+//////////
+
+Int y = 32
+
+System.out.println(y)
+
+///////////
+
+double x = 10.35784;
+
+System.out.println(x);
+
+////////
+
+public class Variable {
+
+public static void main(String[] args) {
+
+double x = 10.35784;
+
+System.out.println(x);
+System.out.println("%2f%n", x);
+System.out.println("%4f%n", x);
+Locale.setDefault(Locale.US);
+System.out.println("%4f%n", x);
+
+}
+
+}
