@@ -1,0 +1,12 @@
+salbruto = int(input('Digite o seu salário bruto: '))
+
+if (salbruto>=3500) : 
+    desconto = salbruto*0.05
+    acrescimo = salbruto*0.03
+else:
+    desconto = salbruto*0.04
+    acrescimo = salbruto*0.03
+
+salliq = salbruto-desconto+acrescimo     
+
+print (f'O seu salário líquido é R$ {salliq:.2f}')
